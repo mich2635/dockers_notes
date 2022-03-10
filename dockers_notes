@@ -1,0 +1,33 @@
+﻿DOCKERS
+	Dockers is a build and deployment tool,the main idea is we can put together 
+all the required dependencies installation commands together the  code so that it 
+installs the dependencies first to run the application..we can automate this by putting 
+inside a .yml file and specify the actions
+
+CONTAINERS
+	Containers follows the same concept of classes in java we can put many images 
+inside it ,these containers can contact with other and also contact with external 
+applications
+
+IMAGES
+	Images follows object concept of java we can add many imges inside the 
+containers ,we can download  images from the Dockerhub.official images has official 
+tags in the hub
+
+TYPES OF DEFAULT NETWORK IN DOCKERS
+	1)None network
+	2)bridge network
+	3)overlay network
+
+BASIC COMMANDS
+	docker ps  				-We can can get running containers using this commands
+	docker images   			-See all the images
+	docker run image_name			-run the images
+	docker run -d image_name		-run the images in background
+	docker run pd image_name:tag		-we can run the specific version of the image using the command
+	docker run -d --name Image_name my_name	-We can give a name for the images
+	docker pull image_name			-We can pull image from the  hub using this command
+	docker start -d container_name		-starts the conatainer
+	docker stop				-Stops the running container
+	docker logs container_name		-see the logs of the particular container
+	docker push image_name			-pushes the image of the contaner to the docker hub
